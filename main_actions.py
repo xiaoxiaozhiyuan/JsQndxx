@@ -6,7 +6,7 @@ import urllib3
 from bs4 import BeautifulSoup
 import os
 
-laravel_session = os.environ['LARAVEL_SESSION']
+laravel_session = os.environ['x6aUCqw36uDo02lt1WOqDjGn0CW2eAMb9ZkdRN8P']
 
 def main(laravel_session):  # 参数为cookie里的laravel_session 自行抓包获取
     s = requests.session()  # 创建会话
